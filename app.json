@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/favicon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.nekocode.RPD"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +33,13 @@
       "visible": "sticky-immersive",
       "barStyle": "dark-content",
       "backgroundColor": "#1a1a237e"
-    }
+    },
+    "android": {
+      "package": "com.nekoapp.resized_photos_downloader",
+      "versionCode": 1
+    },
+
+    "description": "This is an application that shows images with the size of your device and the user can download this image on. a smartphone or browser",
+    "githubUrl": "https://github.com/RichardQuiros/resized_photos_downloader_with_expo.git"
   }
 }
